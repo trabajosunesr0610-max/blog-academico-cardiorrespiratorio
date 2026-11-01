@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog académico universitario sobre alteraciones cardiorrespiratorias y fisioterapia.">
+  <title>Alteraciones Cardiorrespiratorias | Blog académico</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <nav class="nav">
+    <a class="brand" href="#inicio"><span class="brand-mark">♥</span> ACR <small>Fisioterapia</small></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#inicio">Inicio</a><a href="#cardiovasculares">Cardiovasculares</a>
+      <a href="#respiratorias">Respiratorias</a><a href="#fisioterapia">Fisioterapia</a>
+      <a href="#glosario">Glosario</a>
+    </div>
+  </nav>
+  <div class="hero-content" id="inicio">
+    <p class="eyebrow">RECURSO EDUCATIVO UNIVERSITARIO</p>
+    <h1>Alteraciones<br><span>Cardiorrespiratorias</span></h1>
+    <p class="hero-lead">Conoce las principales enfermedades cardiovasculares y respiratorias, sus características clínicas y el papel de la fisioterapia en el abordaje integral.</p>
+    <div class="hero-actions">
+      <a class="btn btn-light" href="#cardiovasculares">Explorar patologías</a>
+      <a class="btn btn-outline" href="#fisioterapia">Rol del fisioterapeuta</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>06</strong><span>Alteraciones cardiovasculares</span></div>
+      <div><strong>11</strong><span>Alteraciones respiratorias</span></div>
+      <div><strong>17</strong><span>Temas de estudio</span></div>
+    </div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <div class="heart">♥</div><div class="pulse-line">⌁⌁⌁⌁⌁</div>
+    <div class="lung lung-left"></div><div class="lung lung-right"></div>
+  </div>
+</header>
+
+<main>
+  <section class="intro section">
+    <div class="section-kicker">01 / INTRODUCCIÓN</div>
+    <div class="intro-grid">
+      <div><h2>Comprender para<br><em>intervenir mejor.</em></h2></div>
+      <div><p>El sistema cardiovascular transporta sangre, oxígeno y nutrientes; el sistema respiratorio permite el intercambio gaseoso. Ambos trabajan de forma coordinada para mantener la homeostasis. Cuando una alteración afecta estos sistemas, puede comprometer la tolerancia al esfuerzo, la movilidad, la autonomía y la calidad de vida.</p>
+      <p>Este espacio reúne conceptos esenciales para el aprendizaje. La información es educativa y no sustituye la valoración, el diagnóstico ni las indicaciones de profesionales sanitarios.</p></div>
+    </div>
+  </section>
+
+  <section class="section catalog" id="cardiovasculares">
+    <div class="section-heading">
+      <div><div class="section-kicker">02 / SISTEMA CARDIOVASCULAR</div><h2>Enfermedades <em>cardiovasculares</em></h2></div>
+      <p>Alteraciones del corazón y de los vasos sanguíneos que pueden modificar la circulación y el aporte de oxígeno a los tejidos.</p>
+    </div>
+    <div class="cards" id="cardioCards"></div>
+  </section>
+
+  <section class="section respiratory-section" id="respiratorias">
+    <div class="section-heading">
+      <div><div class="section-kicker">03 / SISTEMA RESPIRATORIO</div><h2>Enfermedades <em>respiratorias</em></h2></div>
+      <p>Procesos obstructivos, restrictivos, infecciosos, pleurales y otros trastornos que afectan la ventilación o el intercambio gaseoso.</p>
+    </div>
+    <div class="filter-bar">
+      <label for="searchInput">Buscar una patología</label>
+      <div class="search-wrap"><span>⌕</span><input id="searchInput" type="search" placeholder="Ej. asma, tuberculosis, EPOC..."></div>
+      <span class="result-count" id="resultCount">11 temas</span>
+    </div>
+    <div class="cards" id="respCards"></div>
+    <p class="empty-state" id="emptyState" hidden>No se encontraron patologías con ese término. Intenta con otra palabra.</p>
+  </section>
+
+  <section class="physio section" id="fisioterapia">
+    <div class="section-kicker">04 / ABORDAJE PROFESIONAL</div>
+    <div class="physio-grid">
+      <div><h2>Fisioterapia<br><em>cardiorrespiratoria</em></h2>
+      <p>Es un área de la fisioterapia orientada a la prevención, evaluación y tratamiento de personas con alteraciones del sistema cardiovascular y/o respiratorio, mediante intervenciones individualizadas y basadas en la evidencia.</p></div>
+      <div class="physio-points">
+        <article><span>01</span><div><h3>Evaluación</h3><p>Historia clínica, síntomas, frecuencia respiratoria y cardíaca, presión arterial, saturación de oxígeno, auscultación cuando corresponda y capacidad funcional.</p></div></article>
+        <article><span>02</span><div><h3>Intervención</h3><p>Ejercicio terapéutico dosificado, entrenamiento de músculos respiratorios, técnicas de higiene bronquial y educación, según diagnóstico y objetivos.</p></div></article>
+        <article><span>03</span><div><h3>Seguimiento</h3><p>Monitorización de la respuesta, progresión segura, prevención de complicaciones y promoción de la actividad física y el autocuidado.</p></div></article>
+      </div>
+    </div>
+    <div class="notice"><strong>Seguridad clínica:</strong> dolor torácico nuevo o intenso, disnea súbita o grave, síncope, confusión, cianosis o caída importante de la saturación requieren valoración médica urgente. No se debe iniciar ni modificar ejercicio sin considerar la estabilidad clínica y las indicaciones del equipo tratante.</div>
+  </section>
+
+  <section class="section glossary" id="glosario">
+    <div class="section-kicker">05 / CONCEPTOS CLAVE</div><h2>Pequeño <em>glosario</em></h2>
+    <div class="glossary-grid">
+      <div><b>Disnea</b><p>Sensación subjetiva de dificultad o incomodidad al respirar.</p></div>
+      <div><b>Hipoxemia</b><p>Disminución de la presión o concentración de oxígeno en la sangre arterial.</p></div>
+      <div><b>Ventilación</b><p>Movimiento de aire hacia dentro y fuera de los pulmones.</p></div>
+      <div><b>Perfusión</b><p>Flujo de sangre que llega a los tejidos o a los capilares pulmonares.</p></div>
+      <div><b>Espirometría</b><p>Prueba que mide volúmenes y flujos de aire durante maniobras respiratorias.</p></div>
+      <div><b>Rehabilitación</b><p>Intervención integral para mejorar la función, participación y calidad de vida.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="footer-brand">ACR <span>Fisioterapia</span></div><p>Blog académico · Alteraciones Cardiorrespiratorias</p><small>Material educativo. Consulta fuentes científicas y protocolos clínicos actualizados para ampliar cada tema.</small></footer>
+<script src="script.js"></script>
+</body>
+</html>
